@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E9B7CA03-23FE-444C-9642-2B9255C5A542}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Library_Management_System</RootNamespace>
+    <AssemblyName>Library Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="5.1  Add Members.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.1  Add Members.Designer.cs">
+      <DependentUpon>5.1  Add Members.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4.  Login Error Massage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4.  Login Error Massage.Designer.cs">
+      <DependentUpon>4.  Login Error Massage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.2  View Members.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.2  View Members.Designer.cs">
+      <DependentUpon>5.2  View Members.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3.  Librarian Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3.  Librarian Login.Designer.cs">
+      <DependentUpon>3.  Librarian Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.  Librarian Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.  Librarian Dashboard.Designer.cs">
+      <DependentUpon>5.  Librarian Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2.  Selection Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.  Selection Screen.Designer.cs">
+      <DependentUpon>2.  Selection Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1.  Splash Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1.  Splash Screen.Designer.cs">
+      <DependentUpon>1.  Splash Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.3  Add Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.3  Add Books.Designer.cs">
+      <DependentUpon>5.3  Add Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.4  View Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.4  View Books.Designer.cs">
+      <DependentUpon>5.4  View Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.5  Issue Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.5  Issue Book.Designer.cs">
+      <DependentUpon>5.5  Issue Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.6  Return Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.6  Return Books.Designer.cs">
+      <DependentUpon>5.6  Return Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7.1  View Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7.1  View Books.Designer.cs">
+      <DependentUpon>7.1  View Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7.2  View Issue Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7.2  View Issue Books.Designer.cs">
+      <DependentUpon>7.2  View Issue Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7.3  View Return Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7.3  View Return Books.Designer.cs">
+      <DependentUpon>7.3  View Return Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.7  Study Rooms .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.7  Study Rooms .Designer.cs">
+      <DependentUpon>5.7  Study Rooms .cs</DependentUpon>
+    </Compile>
+    <Compile Include="7.4  Member Study Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7.4  Member Study Room.Designer.cs">
+      <DependentUpon>7.4  Member Study Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7.5  Member Setings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7.5  Member Setings.Designer.cs">
+      <DependentUpon>7.5  Member Setings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7.  Member Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7.  Member Dashboard.Designer.cs">
+      <DependentUpon>7.  Member Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="6.  Member Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6.  Member Login.Designer.cs">
+      <DependentUpon>6.  Member Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5.8 Book History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5.8 Book History.Designer.cs">
+      <DependentUpon>5.8 Book History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="5.1  Add Members.resx">
+      <DependentUpon>5.1  Add Members.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4.  Login Error Massage.resx">
+      <DependentUpon>4.  Login Error Massage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.2  View Members.resx">
+      <DependentUpon>5.2  View Members.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3.  Librarian Login.resx">
+      <DependentUpon>3.  Librarian Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.  Librarian Dashboard.resx">
+      <DependentUpon>5.  Librarian Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.  Selection Screen.resx">
+      <DependentUpon>2.  Selection Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.3  Add Books.resx">
+      <DependentUpon>5.3  Add Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.4  View Books.resx">
+      <DependentUpon>5.4  View Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.5  Issue Book.resx">
+      <DependentUpon>5.5  Issue Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.6  Return Books.resx">
+      <DependentUpon>5.6  Return Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7.1  View Books.resx">
+      <DependentUpon>7.1  View Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7.2  View Issue Books.resx">
+      <DependentUpon>7.2  View Issue Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7.3  View Return Books.resx">
+      <DependentUpon>7.3  View Return Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.7  Study Rooms .resx">
+      <DependentUpon>5.7  Study Rooms .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7.4  Member Study Room.resx">
+      <DependentUpon>7.4  Member Study Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7.5  Member Setings.resx">
+      <DependentUpon>7.5  Member Setings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7.  Member Dashboard.resx">
+      <DependentUpon>7.  Member Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6.  Member Login.resx">
+      <DependentUpon>6.  Member Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5.8 Book History.resx">
+      <DependentUpon>5.8 Book History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="1.  Splash Screen.resx">
+      <DependentUpon>1.  Splash Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Splash Screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Selection Screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login Screen - Librarian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard - Librarian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add Members.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add Member.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add Member.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Members Search.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View Members.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login Error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add Books.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add Books.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add Book.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

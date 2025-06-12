@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects\\Library Management System\\Library Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9B7CA03-23FE-444C-9642-2B9255C5A542}|Library Management System\\Library Management System.csproj|f:\\projects\\library management system\\library management system\\library management system\\1.  splash screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9B7CA03-23FE-444C-9642-2B9255C5A542}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\1.  splash screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9B7CA03-23FE-444C-9642-2B9255C5A542}|Library Management System\\Library Management System.csproj|f:\\projects\\library management system\\library management system\\library management system\\2.  selection screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9B7CA03-23FE-444C-9642-2B9255C5A542}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\2.  selection screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "2.  Selection Screen.cs [Design]",
+              "DocumentMoniker": "F:\\Projects\\Library Management System\\Library Management System\\Library Management System\\2.  Selection Screen.cs",
+              "RelativeDocumentMoniker": "Library Management System\\2.  Selection Screen.cs",
+              "ToolTip": "F:\\Projects\\Library Management System\\Library Management System\\Library Management System\\2.  Selection Screen.cs [Design]",
+              "RelativeToolTip": "Library Management System\\2.  Selection Screen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T04:01:00.9Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "1.  Splash Screen.cs [Design]",
+              "DocumentMoniker": "F:\\Projects\\Library Management System\\Library Management System\\Library Management System\\1.  Splash Screen.cs",
+              "RelativeDocumentMoniker": "Library Management System\\1.  Splash Screen.cs",
+              "ToolTip": "F:\\Projects\\Library Management System\\Library Management System\\Library Management System\\1.  Splash Screen.cs [Design]",
+              "RelativeToolTip": "Library Management System\\1.  Splash Screen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T04:00:51.671Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
